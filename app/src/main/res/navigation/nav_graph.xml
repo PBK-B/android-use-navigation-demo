@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.pbkhub.smartcityjava.MainActivity"
+        android:label="MainActivity" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.pbkhub.smartcityjava.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/serversFragment"
+        android:name="com.pbkhub.smartcityjava.ServersFragment"
+        android:label="fragment_servers"
+        tools:layout="@layout/fragment_servers">
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.pbkhub.smartcityjava.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news">
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/activityFragment"
+        android:name="com.pbkhub.smartcityjava.ActivityFragment"
+        android:label="fragment_activity"
+        tools:layout="@layout/fragment_activity">
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myFragment"
+        android:name="com.pbkhub.smartcityjava.MyFragment"
+        android:label="fragment_my"
+        tools:layout="@layout/fragment_my">
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+    </fragment>
+
+</navigation>

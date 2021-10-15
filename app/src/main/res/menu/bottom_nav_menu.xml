@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_action_nav_home"
+        android:title="主页" />
+    <item
+        android:id="@+id/serversFragment"
+        android:icon="@drawable/ic_action_nav_server"
+        android:title="全部服务" />
+    <item
+        android:id="@+id/newsFragment"
+        android:icon="@drawable/ic_action_nav_news"
+        android:title="新闻" />
+    <item
+        android:id="@+id/activityFragment"
+        android:icon="@drawable/ic_action_nav_activitys"
+        android:title="活动" />
+    <item
+        android:id="@+id/myFragment"
+        android:icon="@drawable/ic_action_nav_my"
+        android:title="个人中心" />
+</menu>
